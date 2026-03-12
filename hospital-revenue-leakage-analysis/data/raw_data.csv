@@ -1,0 +1,501 @@
+patient_id,patient_name,admission_date,discharge_date,department,diagnosis_code,doctor_id,insurance_type,billing_amount,payment_received,claim_status,rejection_reason,length_of_stay
+1,Divya Patel,2023-01-13,2023-01-25,Oncology,ICD007-Pneumonia,DOC002,Government,98093.98,53118.87,Approved,,12
+2,Divya Joshi,2023-04-22,2023-04-26,Cardiology,ICD004-CardiacArrest,DOC015,Government,166578.87,83514.03,Approved,,4
+3,Arjun Patel,2023-01-04,2023-01-07,Pediatrics,ICD002-Diabetes,DOC013,Private-B,128079.98,111855.05,Approved,,3
+4,Kiran Patel,2023-06-26,2023-07-06,Cardiology,ICD005-Tumor,DOC020,Private-B,74221.4,49159.67,Approved,,10
+5,Amit Pillai,2023-04-09,2023-04-21,Neurology,ICD004-CardiacArrest,DOC004,Self-Pay,19963.49,19283.94,Approved,,12
+6,Suresh Iyer,2023-08-21,2023-09-01,General Medicine,ICD002-Diabetes,DOC020,Private-B,151466.99,136818.71,Approved,,11
+7,Divya Kumar,2023-10-01,2023-10-13,Oncology,ICD006-Appendicitis,DOC002,Private-A,97598.04,44620.32,Approved,,12
+8,Arjun Kumar,2023-06-11,2023-06-18,Orthopedics,ICD008-Stroke,DOC013,Government,54051.43,53588.56,Approved,,7
+9,Rohit Joshi,2023-03-15,2023-03-20,Oncology,ICD007-Pneumonia,DOC012,Corporate,47509.76,0,Rejected,Not Covered,5
+10,Kavitha Das,2023-09-18,2023-09-26,Orthopedics,ICD007-Pneumonia,DOC020,Private-A,23636.42,20479.71,Approved,,8
+11,Rahul Rao,2023-07-15,2023-07-25,Cardiology,ICD002-Diabetes,DOC018,Corporate,341189.02,178554.89,Approved,,10
+12,Suresh Verma,2023-02-27,2023-03-04,Neurology,ICD003-Fracture,DOC017,Private-B,82779.62,82206.16,Approved,,5
+13,Naveen Chopra,2023-11-24,2023-12-03,Cardiology,ICD001-HyperTension,DOC020,Private-B,189133.55,108726.6,Approved,,9
+14,Deepa Kumar,2023-01-10,2023-01-12,Neurology,ICD001-HyperTension,DOC008,Corporate,167804.96,41867.28,Pending,,2
+15,Vijay Reddy,2023-02-13,2023-02-25,Pediatrics,ICD008-Stroke,DOC018,Government,91590.36,88301.38,Approved,,12
+16,Ravi Iyer,2023-09-28,2023-10-08,Orthopedics,ICD005-Tumor,DOC013,Private-B,80779.73,75197.4,Approved,,10
+17,Divya Kumar,2023-08-13,2023-08-22,Oncology,ICD004-CardiacArrest,DOC001,Private-B,112613.5,73629.9,Approved,,9
+18,Lakshmi Kumar,2023-04-28,2023-04-30,Cardiology,ICD003-Fracture,DOC019,Government,240130.23,3480.49,Pending,,2
+19,Pooja Nair,2023-05-05,2023-05-13,Pediatrics,ICD007-Pneumonia,DOC014,Corporate,146889.48,126991.78,Approved,,8
+20,Arjun Das,2023-12-11,2023-12-22,General Medicine,ICD002-Diabetes,DOC008,Government,177276.42,161391.25,Approved,,11
+21,Amit Mehta,2023-10-02,2023-10-10,Orthopedics,ICD002-Diabetes,DOC002,Private-A,32111.36,29523.0,Approved,,8
+22,Ravi Pillai,2023-01-08,2023-01-10,Oncology,ICD007-Pneumonia,DOC002,Self-Pay,274421.03,8348.91,Pending,,2
+23,Deepa Joshi,2023-01-02,2023-01-09,Orthopedics,ICD008-Stroke,DOC005,Corporate,53614.93,0,Rejected,Duplicate Claim,7
+24,Priya Sharma,2023-04-22,2023-04-23,Orthopedics,ICD008-Stroke,DOC017,Private-B,107619.01,103550.62,Approved,,1
+25,Ananya Joshi,2023-01-30,2023-02-08,Pediatrics,ICD002-Diabetes,DOC019,Private-A,21779.17,20456.2,Approved,,9
+26,Naveen Nair,2023-11-01,2023-11-02,Orthopedics,ICD005-Tumor,DOC007,Self-Pay,114533.62,107381.09,Approved,,1
+27,Amit Sharma,2023-05-03,2023-05-08,Oncology,ICD008-Stroke,DOC020,Private-B,123246.13,0,Rejected,Undercoding,5
+28,Amit Chopra,2023-02-07,2023-02-16,Pediatrics,ICD004-CardiacArrest,DOC012,Government,44662.54,44215.42,Approved,,9
+29,Rahul Rao,2023-08-13,2023-08-22,Neurology,ICD005-Tumor,DOC004,Private-A,129008.87,0,Rejected,Not Covered,9
+30,Ravi Iyer,2023-03-01,2023-03-03,Orthopedics,ICD006-Appendicitis,DOC007,Private-B,135695.67,121076.29,Approved,,2
+31,Suresh Sharma,2023-09-16,2023-09-24,Oncology,ICD001-HyperTension,DOC011,Private-B,89280.3,780.16,Pending,,8
+32,Rahul Patel,2023-03-24,2023-04-05,Orthopedics,ICD002-Diabetes,DOC005,Private-B,83995.71,0,Rejected,Not Covered,12
+33,Meena Chopra,2023-07-09,2023-07-19,Pediatrics,ICD001-HyperTension,DOC012,Government,103034.32,88225.64,Approved,,10
+34,Sneha Iyer,2023-12-08,2023-12-10,Orthopedics,ICD003-Fracture,DOC008,Private-A,68832.73,67539.15,Approved,,2
+35,Pooja Das,2023-07-31,2023-08-01,Orthopedics,ICD004-CardiacArrest,DOC009,Private-A,38850.03,9118.72,Pending,,1
+36,Sanjay Nair,2023-07-15,2023-07-16,Orthopedics,ICD005-Tumor,DOC008,Government,155678.04,151395.02,Approved,,1
+37,Suresh Nair,2023-12-04,2023-12-08,Orthopedics,ICD007-Pneumonia,DOC018,Government,76536.15,65852.71,Approved,,4
+38,Sunita Gupta,2023-03-01,2023-03-06,Neurology,ICD007-Pneumonia,DOC012,Government,38713.66,3083.15,Pending,,5
+39,Priya Iyer,2023-08-12,2023-08-22,Oncology,ICD007-Pneumonia,DOC001,Private-B,254064.3,174616.07,Approved,,10
+40,Meena Joshi,2023-12-18,2023-12-30,Pediatrics,ICD002-Diabetes,DOC011,Self-Pay,169725.26,0,Rejected,Policy Lapsed,12
+41,Pooja Nair,2023-12-06,2023-12-08,Pediatrics,ICD007-Pneumonia,DOC010,Private-B,131797.73,118142.52,Approved,,2
+42,Kavitha Gupta,2023-04-09,2023-04-16,Pediatrics,ICD005-Tumor,DOC013,Private-A,122367.86,117744.82,Approved,,7
+43,Arjun Mehta,2023-06-05,2023-06-10,Pediatrics,ICD008-Stroke,DOC015,Government,44151.42,0,Rejected,Not Covered,5
+44,Deepa Verma,2023-09-19,2023-09-27,Oncology,ICD006-Appendicitis,DOC003,Private-A,254532.36,31908.89,Pending,,8
+45,Sneha Pillai,2023-04-26,2023-04-30,Orthopedics,ICD002-Diabetes,DOC015,Private-B,33344.88,33264.53,Approved,,4
+46,Rahul Chopra,2023-04-10,2023-04-22,General Medicine,ICD002-Diabetes,DOC014,Self-Pay,127772.93,113283.18,Approved,,12
+47,Sunita Mehta,2023-12-23,2024-01-01,Orthopedics,ICD003-Fracture,DOC015,Private-A,87902.58,86814.39,Approved,,9
+48,Naveen Joshi,2023-10-14,2023-10-24,Oncology,ICD008-Stroke,DOC006,Self-Pay,117047.29,8308.24,Pending,,10
+49,Naveen Mehta,2023-08-19,2023-08-24,Oncology,ICD004-CardiacArrest,DOC009,Corporate,252102.65,0,Rejected,Undercoding,5
+50,Amit Reddy,2024-01-01,2024-01-06,General Medicine,ICD003-Fracture,DOC008,Government,48332.9,47557.35,Approved,,5
+51,Pooja Sharma,2023-12-28,2024-01-01,General Medicine,ICD004-CardiacArrest,DOC014,Private-A,19047.36,17740.55,Approved,,4
+52,Rahul Nair,2023-12-23,2023-12-24,General Medicine,ICD005-Tumor,DOC013,Self-Pay,155357.91,17728.56,Pending,,1
+53,Lakshmi Sharma,2023-10-07,2023-10-17,General Medicine,ICD007-Pneumonia,DOC011,Self-Pay,162423.55,144709.69,Approved,,10
+54,Rohit Gupta,2023-03-26,2023-04-03,Oncology,ICD001-HyperTension,DOC003,Corporate,321496.95,26625.18,Pending,,8
+55,Arjun Das,2023-03-11,2023-03-19,Oncology,ICD007-Pneumonia,DOC009,Corporate,63529.82,35296.43,Approved,,8
+56,Meena Kumar,2023-02-11,2023-02-19,General Medicine,ICD002-Diabetes,DOC002,Private-B,11333.93,11333.77,Approved,,8
+57,Ravi Mehta,2023-04-13,2023-04-14,Cardiology,ICD005-Tumor,DOC012,Private-A,158528.57,105798.95,Approved,,1
+58,Deepa Patel,2023-11-07,2023-11-19,Orthopedics,ICD001-HyperTension,DOC010,Self-Pay,131557.44,6463.38,Pending,,12
+59,Ananya Patel,2023-07-23,2023-08-04,Pediatrics,ICD005-Tumor,DOC020,Corporate,42112.72,41042.46,Approved,,12
+60,Rahul Pillai,2023-01-22,2023-01-28,Cardiology,ICD007-Pneumonia,DOC016,Self-Pay,174683.14,85717.9,Approved,,6
+61,Naveen Rao,2023-07-05,2023-07-16,Cardiology,ICD005-Tumor,DOC020,Corporate,229650.07,140851.05,Approved,,11
+62,Ananya Pillai,2023-08-27,2023-09-03,Pediatrics,ICD002-Diabetes,DOC009,Corporate,150026.35,134775.52,Approved,,7
+63,Arjun Reddy,2023-08-26,2023-09-05,General Medicine,ICD008-Stroke,DOC007,Private-A,112977.05,96516.86,Approved,,10
+64,Divya Sharma,2023-06-24,2023-06-29,Neurology,ICD004-CardiacArrest,DOC003,Private-B,159415.04,0,Rejected,Undercoding,5
+65,Sanjay Das,2023-09-08,2023-09-17,Orthopedics,ICD001-HyperTension,DOC003,Corporate,138404.32,0,Rejected,Duplicate Claim,9
+66,Lakshmi Verma,2023-07-27,2023-08-08,Neurology,ICD006-Appendicitis,DOC014,Private-A,49848.49,0,Rejected,Undercoding,12
+67,Ravi Nair,2023-06-19,2023-06-25,Oncology,ICD002-Diabetes,DOC018,Self-Pay,178444.39,114417.95,Approved,,6
+68,Sneha Singh,2023-04-09,2023-04-13,Oncology,ICD002-Diabetes,DOC007,Private-A,247412.93,126726.67,Approved,,4
+69,Suresh Sharma,2023-07-04,2023-07-07,Neurology,ICD001-HyperTension,DOC018,Private-A,59990.03,0,Rejected,Policy Lapsed,3
+70,Lakshmi Mehta,2023-11-23,2023-12-01,Neurology,ICD006-Appendicitis,DOC006,Private-A,25645.08,22892.1,Approved,,8
+71,Priya Reddy,2023-09-02,2023-09-04,Cardiology,ICD003-Fracture,DOC019,Private-B,260054.2,128653.53,Approved,,2
+72,Sneha Kumar,2023-05-08,2023-05-10,Neurology,ICD007-Pneumonia,DOC015,Government,103988.56,97688.83,Approved,,2
+73,Sunita Das,2023-10-29,2023-11-05,General Medicine,ICD004-CardiacArrest,DOC007,Private-B,60525.4,0,Rejected,Not Covered,7
+74,Sanjay Iyer,2023-03-22,2023-03-26,Neurology,ICD008-Stroke,DOC010,Government,37895.93,32226.75,Approved,,4
+75,Suresh Das,2023-05-28,2023-06-09,Cardiology,ICD004-CardiacArrest,DOC014,Private-A,82868.58,1209.22,Pending,,12
+76,Deepa Gupta,2023-04-26,2023-05-07,Cardiology,ICD005-Tumor,DOC015,Self-Pay,45117.81,29299.68,Approved,,11
+77,Amit Gupta,2023-12-19,2023-12-24,Cardiology,ICD001-HyperTension,DOC014,Corporate,211226.93,19271.31,Pending,,5
+78,Rohit Sharma,2023-11-06,2023-11-11,Oncology,ICD005-Tumor,DOC019,Private-B,23682.05,11840.57,Approved,,5
+79,Lakshmi Patel,2023-08-29,2023-09-07,Cardiology,ICD008-Stroke,DOC012,Private-A,205269.64,6536.86,Pending,,9
+80,Lakshmi Singh,2023-06-14,2023-06-25,General Medicine,ICD007-Pneumonia,DOC018,Private-B,25991.18,23697.37,Approved,,11
+81,Rahul Rao,2023-02-15,2023-02-21,Cardiology,ICD008-Stroke,DOC014,Corporate,97963.49,49658.51,Approved,,6
+82,Suresh Verma,2023-09-23,2023-09-29,Cardiology,ICD003-Fracture,DOC010,Private-A,153779.05,105460.45,Approved,,6
+83,Kavitha Singh,2023-03-04,2023-03-05,General Medicine,ICD001-HyperTension,DOC018,Corporate,175381.25,0,Rejected,Policy Lapsed,1
+84,Lakshmi Chopra,2023-04-26,2023-04-28,General Medicine,ICD005-Tumor,DOC017,Government,87369.04,85169.22,Approved,,2
+85,Sneha Verma,2023-08-01,2023-08-09,Oncology,ICD003-Fracture,DOC003,Private-B,277002.17,164714.95,Approved,,8
+86,Rohit Gupta,2023-06-24,2023-07-03,Neurology,ICD008-Stroke,DOC005,Corporate,53953.7,51736.62,Approved,,9
+87,Arjun Pillai,2023-09-05,2023-09-11,General Medicine,ICD004-CardiacArrest,DOC008,Self-Pay,65179.67,7375.93,Pending,,6
+88,Kiran Rao,2023-04-30,2023-05-07,Pediatrics,ICD003-Fracture,DOC016,Corporate,15507.34,0,Rejected,Duplicate Claim,7
+89,Sanjay Sharma,2023-09-15,2023-09-25,Cardiology,ICD003-Fracture,DOC014,Private-A,89178.09,63589.83,Approved,,10
+90,Amit Pillai,2023-02-08,2023-02-16,Oncology,ICD006-Appendicitis,DOC018,Private-A,224776.41,134373.91,Approved,,8
+91,Sneha Patel,2023-11-17,2023-11-29,General Medicine,ICD004-CardiacArrest,DOC010,Private-B,160639.45,149579.81,Approved,,12
+92,Sanjay Reddy,2023-08-11,2023-08-13,Orthopedics,ICD005-Tumor,DOC001,Government,138783.59,0,Rejected,Incomplete Documents,2
+93,Kavitha Reddy,2023-01-29,2023-02-03,Cardiology,ICD003-Fracture,DOC003,Private-B,110643.62,61758.8,Approved,,5
+94,Sanjay Rao,2023-11-14,2023-11-25,Pediatrics,ICD005-Tumor,DOC015,Corporate,49422.72,2121.98,Pending,,11
+95,Meena Gupta,2023-08-27,2023-09-01,Neurology,ICD005-Tumor,DOC014,Government,124549.07,114119.26,Approved,,5
+96,Rohit Nair,2023-08-22,2023-08-27,Oncology,ICD005-Tumor,DOC010,Private-B,61962.82,38988.96,Approved,,5
+97,Lakshmi Pillai,2023-05-21,2023-05-22,Cardiology,ICD005-Tumor,DOC008,Corporate,204088.67,0,Rejected,Incomplete Documents,1
+98,Vijay Rao,2023-04-23,2023-05-04,Pediatrics,ICD002-Diabetes,DOC002,Private-B,40702.7,39210.4,Approved,,11
+99,Arjun Iyer,2023-01-18,2023-01-28,Neurology,ICD007-Pneumonia,DOC006,Corporate,70756.13,69796.97,Approved,,10
+100,Suresh Chopra,2023-10-04,2023-10-10,Orthopedics,ICD008-Stroke,DOC010,Private-A,99306.61,24741.43,Pending,,6
+101,Kiran Pillai,2023-02-28,2023-03-08,Oncology,ICD006-Appendicitis,DOC003,Private-B,330237.86,172745.23,Approved,,8
+102,Suresh Gupta,2023-05-16,2023-05-25,General Medicine,ICD007-Pneumonia,DOC012,Government,29257.26,28155.78,Approved,,9
+103,Amit Rao,2023-08-30,2023-08-31,Cardiology,ICD008-Stroke,DOC010,Private-A,197855.27,11273.12,Pending,,1
+104,Ananya Chopra,2023-03-01,2023-03-04,Oncology,ICD003-Fracture,DOC013,Corporate,21823.81,15790.0,Approved,,3
+105,Vijay Chopra,2023-12-10,2023-12-22,General Medicine,ICD007-Pneumonia,DOC004,Private-B,127795.25,119884.86,Approved,,12
+106,Ananya Pillai,2023-07-28,2023-08-02,General Medicine,ICD006-Appendicitis,DOC004,Self-Pay,13627.2,12489.43,Approved,,5
+107,Sanjay Patel,2023-10-06,2023-10-17,Oncology,ICD004-CardiacArrest,DOC020,Private-B,96558.95,61222.33,Approved,,11
+108,Divya Kumar,2023-06-20,2023-06-24,Cardiology,ICD004-CardiacArrest,DOC008,Government,240052.89,0,Rejected,Policy Lapsed,4
+109,Divya Singh,2023-11-02,2023-11-03,Neurology,ICD003-Fracture,DOC004,Private-A,55691.27,16498.99,Pending,,1
+110,Kavitha Singh,2023-03-09,2023-03-10,Oncology,ICD001-HyperTension,DOC005,Government,106281.12,0,Rejected,Not Covered,1
+111,Sunita Mehta,2023-09-27,2023-09-29,Oncology,ICD004-CardiacArrest,DOC020,Corporate,226082.42,131717.51,Approved,,2
+112,Pooja Rao,2023-06-04,2023-06-12,Cardiology,ICD002-Diabetes,DOC016,Self-Pay,224626.09,118629.45,Approved,,8
+113,Rohit Verma,2023-02-07,2023-02-09,Oncology,ICD006-Appendicitis,DOC013,Corporate,110132.82,55092.89,Approved,,2
+114,Sunita Pillai,2023-05-31,2023-06-08,Pediatrics,ICD004-CardiacArrest,DOC014,Self-Pay,94954.78,92007.8,Approved,,8
+115,Arjun Joshi,2023-07-31,2023-08-06,General Medicine,ICD006-Appendicitis,DOC009,Private-A,150316.11,144219.57,Approved,,6
+116,Pooja Patel,2023-12-18,2023-12-26,Neurology,ICD006-Appendicitis,DOC005,Private-A,19546.93,0,Rejected,Incomplete Documents,8
+117,Meena Pillai,2023-10-28,2023-11-06,Pediatrics,ICD007-Pneumonia,DOC002,Government,104609.54,0,Rejected,Duplicate Claim,9
+118,Lakshmi Kumar,2023-06-09,2023-06-15,Neurology,ICD002-Diabetes,DOC012,Self-Pay,25819.3,22545.66,Approved,,6
+119,Sneha Gupta,2023-02-28,2023-03-05,Pediatrics,ICD001-HyperTension,DOC020,Private-B,106745.2,0,Rejected,Not Covered,5
+120,Kavitha Pillai,2023-01-15,2023-01-18,Oncology,ICD003-Fracture,DOC019,Private-B,85018.28,0,Rejected,Undercoding,3
+121,Kiran Joshi,2023-02-05,2023-02-08,Oncology,ICD008-Stroke,DOC011,Corporate,226377.17,3728.48,Pending,,3
+122,Priya Reddy,2023-06-09,2023-06-21,Orthopedics,ICD003-Fracture,DOC020,Private-B,63793.86,11410.62,Pending,,12
+123,Ravi Das,2023-05-20,2023-05-28,Cardiology,ICD002-Diabetes,DOC012,Government,193738.3,0,Rejected,Duplicate Claim,8
+124,Priya Kumar,2023-05-26,2023-06-06,General Medicine,ICD007-Pneumonia,DOC020,Government,124699.64,0,Rejected,Undercoding,11
+125,Sunita Sharma,2023-04-15,2023-04-20,Cardiology,ICD008-Stroke,DOC014,Government,256339.38,0,Rejected,Undercoding,5
+126,Meena Patel,2023-07-14,2023-07-23,Orthopedics,ICD007-Pneumonia,DOC002,Private-A,129031.46,125806.08,Approved,,9
+127,Kiran Iyer,2023-08-24,2023-08-26,General Medicine,ICD007-Pneumonia,DOC010,Government,156282.92,0,Rejected,Not Covered,2
+128,Meena Patel,2023-01-11,2023-01-17,Cardiology,ICD007-Pneumonia,DOC004,Corporate,66963.13,5184.67,Pending,,6
+129,Arjun Kumar,2023-10-29,2023-11-05,Orthopedics,ICD006-Appendicitis,DOC006,Corporate,98121.56,87970.02,Approved,,7
+130,Vijay Kumar,2023-11-21,2023-11-23,Cardiology,ICD002-Diabetes,DOC005,Self-Pay,153439.34,95932.16,Approved,,2
+131,Kavitha Das,2023-03-30,2023-04-09,Neurology,ICD008-Stroke,DOC015,Private-A,34293.6,0,Rejected,Incomplete Documents,10
+132,Sneha Nair,2023-08-18,2023-08-29,Pediatrics,ICD006-Appendicitis,DOC005,Self-Pay,166954.53,157821.24,Approved,,11
+133,Priya Nair,2023-08-29,2023-09-06,General Medicine,ICD002-Diabetes,DOC010,Government,116598.24,0,Rejected,Not Covered,8
+134,Amit Gupta,2023-01-20,2023-01-21,General Medicine,ICD007-Pneumonia,DOC015,Corporate,71422.87,67616.03,Approved,,1
+135,Sneha Mehta,2023-01-22,2023-01-30,Pediatrics,ICD003-Fracture,DOC002,Self-Pay,164356.59,144343.86,Approved,,8
+136,Ananya Iyer,2023-06-25,2023-07-07,General Medicine,ICD008-Stroke,DOC015,Government,22504.61,0,Rejected,Incomplete Documents,12
+137,Arjun Rao,2023-11-09,2023-11-12,Pediatrics,ICD001-HyperTension,DOC011,Self-Pay,70590.45,8204.37,Pending,,3
+138,Sneha Pillai,2023-02-18,2023-02-27,Cardiology,ICD003-Fracture,DOC011,Private-B,219388.49,119514.47,Approved,,9
+139,Vijay Gupta,2023-12-06,2023-12-09,Cardiology,ICD002-Diabetes,DOC010,Self-Pay,292176.47,157132.64,Approved,,3
+140,Amit Rao,2023-11-26,2023-12-02,Pediatrics,ICD007-Pneumonia,DOC017,Corporate,147867.78,0,Rejected,Not Covered,6
+141,Lakshmi Kumar,2023-07-05,2023-07-10,Neurology,ICD004-CardiacArrest,DOC005,Government,39005.22,38699.04,Approved,,5
+142,Priya Rao,2023-06-01,2023-06-03,Orthopedics,ICD006-Appendicitis,DOC020,Government,95322.63,0,Rejected,Not Covered,2
+143,Kavitha Iyer,2023-07-12,2023-07-15,Orthopedics,ICD008-Stroke,DOC002,Self-Pay,35906.52,8306.23,Pending,,3
+144,Sanjay Kumar,2023-12-13,2023-12-25,General Medicine,ICD004-CardiacArrest,DOC010,Private-B,48855.19,43614.94,Approved,,12
+145,Deepa Das,2023-07-08,2023-07-19,General Medicine,ICD007-Pneumonia,DOC017,Private-A,170906.39,23671.22,Pending,,11
+146,Lakshmi Pillai,2023-03-24,2023-03-28,Pediatrics,ICD006-Appendicitis,DOC018,Corporate,145816.59,129412.29,Approved,,4
+147,Pooja Patel,2023-03-05,2023-03-10,Cardiology,ICD004-CardiacArrest,DOC015,Self-Pay,37213.38,20574.04,Approved,,5
+148,Amit Nair,2023-08-01,2023-08-02,Neurology,ICD004-CardiacArrest,DOC001,Government,76190.08,69174.87,Approved,,1
+149,Lakshmi Iyer,2024-01-01,2024-01-12,Neurology,ICD003-Fracture,DOC016,Government,65669.94,56196.75,Approved,,11
+150,Sneha Verma,2023-01-03,2023-01-05,General Medicine,ICD007-Pneumonia,DOC004,Self-Pay,11268.67,9831.1,Approved,,2
+151,Sanjay Patel,2023-06-04,2023-06-06,Neurology,ICD002-Diabetes,DOC016,Private-A,16212.9,15711.68,Approved,,2
+152,Pooja Sharma,2023-01-09,2023-01-20,Pediatrics,ICD006-Appendicitis,DOC008,Self-Pay,96644.63,84229.33,Approved,,11
+153,Naveen Verma,2023-04-06,2023-04-17,Pediatrics,ICD001-HyperTension,DOC013,Corporate,122932.96,111142.53,Approved,,11
+154,Amit Nair,2023-11-22,2023-11-29,General Medicine,ICD004-CardiacArrest,DOC004,Government,176738.78,150658.56,Approved,,7
+155,Sanjay Iyer,2023-03-10,2023-03-11,Pediatrics,ICD008-Stroke,DOC006,Private-B,68595.44,64920.05,Approved,,1
+156,Priya Nair,2023-08-23,2023-08-24,Orthopedics,ICD005-Tumor,DOC017,Government,58472.12,51450.82,Approved,,1
+157,Priya Pillai,2023-08-31,2023-09-05,General Medicine,ICD006-Appendicitis,DOC009,Self-Pay,14298.77,12767.61,Approved,,5
+158,Lakshmi Iyer,2023-08-12,2023-08-19,Cardiology,ICD008-Stroke,DOC012,Private-B,269199.12,15757.58,Pending,,7
+159,Kavitha Verma,2023-02-12,2023-02-24,Pediatrics,ICD005-Tumor,DOC011,Private-B,81013.94,80954.37,Approved,,12
+160,Sanjay Nair,2023-06-17,2023-06-28,Cardiology,ICD008-Stroke,DOC002,Government,83370.03,56357.74,Approved,,11
+161,Kiran Nair,2023-11-11,2023-11-18,Oncology,ICD003-Fracture,DOC001,Private-B,74691.4,15703.98,Pending,,7
+162,Meena Nair,2023-12-14,2023-12-22,Orthopedics,ICD007-Pneumonia,DOC019,Self-Pay,13985.42,13520.79,Approved,,8
+163,Vijay Verma,2023-03-20,2023-03-31,Cardiology,ICD006-Appendicitis,DOC013,Self-Pay,115598.18,78264.65,Approved,,11
+164,Divya Patel,2023-05-08,2023-05-10,Neurology,ICD005-Tumor,DOC009,Private-B,12457.09,11555.97,Approved,,2
+165,Amit Mehta,2023-04-20,2023-04-30,Oncology,ICD003-Fracture,DOC015,Corporate,79158.45,8417.09,Pending,,10
+166,Kavitha Iyer,2023-12-08,2023-12-14,Cardiology,ICD003-Fracture,DOC012,Private-B,196357.91,116198.66,Approved,,6
+167,Meena Verma,2023-03-04,2023-03-08,Pediatrics,ICD006-Appendicitis,DOC015,Private-A,144235.3,133288.32,Approved,,4
+168,Lakshmi Verma,2023-11-10,2023-11-12,Pediatrics,ICD007-Pneumonia,DOC014,Private-A,19308.67,18488.82,Approved,,2
+169,Meena Reddy,2023-03-06,2023-03-12,Pediatrics,ICD003-Fracture,DOC005,Government,118482.24,112797.03,Approved,,6
+170,Ananya Nair,2023-01-29,2023-01-31,General Medicine,ICD005-Tumor,DOC003,Self-Pay,97113.57,84905.91,Approved,,2
+171,Divya Patel,2023-11-22,2023-12-01,Neurology,ICD003-Fracture,DOC019,Private-A,55205.58,0,Rejected,Not Covered,9
+172,Rohit Sharma,2023-03-29,2023-04-09,Pediatrics,ICD001-HyperTension,DOC003,Private-A,115410.42,11689.45,Pending,,11
+173,Divya Singh,2023-05-16,2023-05-27,Cardiology,ICD005-Tumor,DOC016,Self-Pay,58475.05,41723.72,Approved,,11
+174,Lakshmi Mehta,2023-06-02,2023-06-10,Orthopedics,ICD004-CardiacArrest,DOC011,Corporate,20551.36,18823.83,Approved,,8
+175,Kiran Reddy,2023-06-10,2023-06-22,Pediatrics,ICD006-Appendicitis,DOC017,Private-A,62922.42,6519.47,Pending,,12
+176,Sunita Sharma,2023-06-13,2023-06-17,Pediatrics,ICD005-Tumor,DOC013,Government,88233.28,78279.49,Approved,,4
+177,Ravi Das,2023-05-08,2023-05-11,Pediatrics,ICD003-Fracture,DOC016,Corporate,147918.19,32000.4,Pending,,3
+178,Sanjay Kumar,2023-09-13,2023-09-18,Pediatrics,ICD004-CardiacArrest,DOC019,Corporate,93547.69,85033.57,Approved,,5
+179,Lakshmi Singh,2023-01-26,2023-01-31,Neurology,ICD001-HyperTension,DOC004,Government,93121.8,18277.76,Pending,,5
+180,Priya Gupta,2023-05-16,2023-05-28,General Medicine,ICD004-CardiacArrest,DOC012,Private-A,70913.75,60757.93,Approved,,12
+181,Sneha Rao,2023-02-07,2023-02-14,Pediatrics,ICD002-Diabetes,DOC005,Private-B,94731.95,0,Rejected,Undercoding,7
+182,Kiran Verma,2023-07-11,2023-07-17,Cardiology,ICD001-HyperTension,DOC002,Corporate,178968.19,90604.44,Approved,,6
+183,Vijay Nair,2024-01-01,2024-01-07,Cardiology,ICD006-Appendicitis,DOC006,Private-A,281621.21,127607.91,Approved,,6
+184,Rohit Singh,2023-06-03,2023-06-13,General Medicine,ICD008-Stroke,DOC001,Self-Pay,65856.23,10517.37,Pending,,10
+185,Rahul Gupta,2023-12-11,2023-12-13,Neurology,ICD008-Stroke,DOC009,Private-B,176542.46,171160.25,Approved,,2
+186,Sneha Das,2023-10-23,2023-10-27,Oncology,ICD007-Pneumonia,DOC005,Self-Pay,229862.58,115646.9,Approved,,4
+187,Vijay Joshi,2023-01-17,2023-01-27,Oncology,ICD004-CardiacArrest,DOC014,Private-A,259987.71,145913.6,Approved,,10
+188,Ravi Verma,2023-08-30,2023-09-11,Pediatrics,ICD006-Appendicitis,DOC016,Self-Pay,133113.16,0,Rejected,Not Covered,12
+189,Suresh Gupta,2023-06-10,2023-06-13,Pediatrics,ICD008-Stroke,DOC007,Corporate,87062.13,81136.77,Approved,,3
+190,Deepa Iyer,2023-10-13,2023-10-18,Orthopedics,ICD004-CardiacArrest,DOC016,Private-B,46677.13,4167.54,Pending,,5
+191,Deepa Patel,2023-06-28,2023-07-07,Neurology,ICD007-Pneumonia,DOC013,Corporate,168596.46,0,Rejected,Undercoding,9
+192,Sanjay Rao,2023-05-29,2023-05-30,Neurology,ICD005-Tumor,DOC016,Private-A,57472.42,0,Rejected,Undercoding,1
+193,Sunita Gupta,2023-10-03,2023-10-08,Orthopedics,ICD004-CardiacArrest,DOC008,Private-A,168480.12,0,Rejected,Policy Lapsed,5
+194,Vijay Sharma,2023-04-26,2023-05-07,Cardiology,ICD003-Fracture,DOC014,Self-Pay,78350.86,43221.19,Approved,,11
+195,Amit Rao,2023-09-02,2023-09-13,Oncology,ICD004-CardiacArrest,DOC018,Corporate,74126.3,4076.24,Pending,,11
+196,Kiran Das,2023-03-31,2023-04-07,Oncology,ICD008-Stroke,DOC006,Government,319176.02,157820.44,Approved,,7
+197,Divya Verma,2023-01-20,2023-01-21,Oncology,ICD008-Stroke,DOC005,Private-B,88937.33,0,Rejected,Undercoding,1
+198,Suresh Iyer,2023-05-20,2023-05-24,Pediatrics,ICD003-Fracture,DOC001,Corporate,147115.99,141182.49,Approved,,4
+199,Kiran Pillai,2023-06-01,2023-06-11,Oncology,ICD007-Pneumonia,DOC017,Private-B,216636.16,116760.93,Approved,,10
+200,Ananya Sharma,2023-07-25,2023-08-05,Neurology,ICD005-Tumor,DOC013,Government,24406.24,3495.86,Pending,,11
+201,Suresh Rao,2023-05-17,2023-05-23,Orthopedics,ICD006-Appendicitis,DOC008,Corporate,59934.68,0,Rejected,Incomplete Documents,6
+202,Deepa Nair,2023-08-27,2023-09-01,Cardiology,ICD004-CardiacArrest,DOC008,Government,63252.52,0,Rejected,Undercoding,5
+203,Divya Chopra,2023-03-20,2023-03-28,Orthopedics,ICD008-Stroke,DOC018,Corporate,136610.39,0,Rejected,Duplicate Claim,8
+204,Meena Patel,2023-05-07,2023-05-18,Oncology,ICD002-Diabetes,DOC002,Private-A,222257.82,3384.89,Pending,,11
+205,Sanjay Patel,2023-04-14,2023-04-24,Pediatrics,ICD004-CardiacArrest,DOC019,Self-Pay,100305.55,98116.17,Approved,,10
+206,Pooja Mehta,2023-09-19,2023-09-27,General Medicine,ICD001-HyperTension,DOC018,Government,147095.04,0,Rejected,Not Covered,8
+207,Amit Sharma,2023-01-12,2023-01-19,General Medicine,ICD007-Pneumonia,DOC012,Private-B,51766.64,45693.65,Approved,,7
+208,Pooja Reddy,2023-10-05,2023-10-06,Oncology,ICD003-Fracture,DOC014,Government,223121.35,167071.95,Approved,,1
+209,Vijay Rao,2023-08-18,2023-08-25,Neurology,ICD006-Appendicitis,DOC004,Corporate,72611.03,0,Rejected,Not Covered,7
+210,Rahul Singh,2023-07-21,2023-07-30,Orthopedics,ICD008-Stroke,DOC018,Self-Pay,29903.7,7489.28,Pending,,9
+211,Sunita Sharma,2023-07-14,2023-07-18,General Medicine,ICD007-Pneumonia,DOC020,Self-Pay,50572.07,45077.29,Approved,,4
+212,Priya Kumar,2023-04-16,2023-04-18,Cardiology,ICD001-HyperTension,DOC013,Private-A,45442.4,23824.55,Approved,,2
+213,Naveen Singh,2023-10-04,2023-10-08,General Medicine,ICD004-CardiacArrest,DOC019,Private-A,137754.34,0,Rejected,Policy Lapsed,4
+214,Naveen Kumar,2023-11-03,2023-11-14,Neurology,ICD007-Pneumonia,DOC010,Self-Pay,148761.79,146000.58,Approved,,11
+215,Pooja Verma,2023-10-13,2023-10-23,Neurology,ICD008-Stroke,DOC002,Government,159310.79,29918.24,Pending,,10
+216,Kavitha Das,2023-09-26,2023-10-02,Neurology,ICD008-Stroke,DOC008,Corporate,127765.05,114347.58,Approved,,6
+217,Pooja Verma,2023-12-29,2024-01-01,Orthopedics,ICD003-Fracture,DOC013,Private-B,146593.5,24732.64,Pending,,3
+218,Amit Verma,2023-04-15,2023-04-21,Orthopedics,ICD004-CardiacArrest,DOC002,Private-B,119233.41,30301.98,Pending,,6
+219,Rohit Iyer,2023-12-11,2023-12-21,Neurology,ICD004-CardiacArrest,DOC016,Corporate,111702.59,6305.5,Pending,,10
+220,Lakshmi Chopra,2023-06-05,2023-06-06,Orthopedics,ICD004-CardiacArrest,DOC020,Private-B,44430.94,42707.97,Approved,,1
+221,Meena Singh,2023-07-23,2023-07-27,Oncology,ICD005-Tumor,DOC012,Private-A,167447.76,0,Rejected,Duplicate Claim,4
+222,Ravi Nair,2023-08-27,2023-08-29,Pediatrics,ICD006-Appendicitis,DOC014,Corporate,146084.46,0,Rejected,Undercoding,2
+223,Pooja Singh,2023-04-24,2023-05-06,Cardiology,ICD003-Fracture,DOC007,Self-Pay,56446.54,32774.8,Approved,,12
+224,Arjun Singh,2023-07-14,2023-07-24,Neurology,ICD008-Stroke,DOC016,Private-A,151338.39,143497.73,Approved,,10
+225,Divya Rao,2023-06-30,2023-07-03,General Medicine,ICD001-HyperTension,DOC017,Private-A,32072.87,28147.38,Approved,,3
+226,Vijay Sharma,2023-12-09,2023-12-10,Cardiology,ICD004-CardiacArrest,DOC017,Government,203900.17,136172.32,Approved,,1
+227,Lakshmi Sharma,2023-01-31,2023-02-10,General Medicine,ICD001-HyperTension,DOC018,Private-B,117689.32,32226.33,Pending,,10
+228,Rahul Verma,2023-01-07,2023-01-08,Pediatrics,ICD007-Pneumonia,DOC006,Corporate,99059.84,98725.21,Approved,,1
+229,Suresh Das,2023-09-26,2023-09-29,Cardiology,ICD007-Pneumonia,DOC003,Government,92497.36,0,Rejected,Undercoding,3
+230,Amit Rao,2023-08-24,2023-09-03,Neurology,ICD001-HyperTension,DOC003,Corporate,49831.76,0,Rejected,Undercoding,10
+231,Amit Mehta,2023-07-13,2023-07-22,General Medicine,ICD007-Pneumonia,DOC011,Corporate,89872.88,0,Rejected,Policy Lapsed,9
+232,Rohit Mehta,2023-09-28,2023-09-29,Pediatrics,ICD005-Tumor,DOC002,Government,47519.84,9869.22,Pending,,1
+233,Ravi Gupta,2023-10-06,2023-10-16,Cardiology,ICD003-Fracture,DOC013,Private-B,158881.6,118475.68,Approved,,10
+234,Divya Nair,2023-03-25,2023-04-04,Cardiology,ICD007-Pneumonia,DOC005,Private-B,87563.08,0,Rejected,Duplicate Claim,10
+235,Arjun Gupta,2023-09-14,2023-09-26,Oncology,ICD007-Pneumonia,DOC011,Government,331338.96,160757.9,Approved,,12
+236,Rohit Rao,2023-08-19,2023-08-27,Cardiology,ICD007-Pneumonia,DOC003,Private-B,67553.69,42814.09,Approved,,8
+237,Vijay Iyer,2023-05-07,2023-05-19,Pediatrics,ICD007-Pneumonia,DOC011,Private-B,20643.15,18723.34,Approved,,12
+238,Sunita Reddy,2023-02-16,2023-02-17,Neurology,ICD002-Diabetes,DOC006,Government,170189.16,164096.72,Approved,,1
+239,Divya Patel,2023-10-13,2023-10-22,General Medicine,ICD006-Appendicitis,DOC013,Corporate,96139.83,83011.25,Approved,,9
+240,Ananya Gupta,2023-07-31,2023-08-07,Cardiology,ICD003-Fracture,DOC013,Private-B,274610.68,0,Rejected,Not Covered,7
+241,Suresh Joshi,2023-05-18,2023-05-23,Orthopedics,ICD005-Tumor,DOC016,Private-A,54165.97,47399.62,Approved,,5
+242,Vijay Singh,2023-05-09,2023-05-13,Cardiology,ICD001-HyperTension,DOC013,Private-B,213897.84,124405.06,Approved,,4
+243,Sneha Reddy,2023-07-14,2023-07-20,Neurology,ICD005-Tumor,DOC011,Self-Pay,83718.34,81502.34,Approved,,6
+244,Lakshmi Gupta,2023-09-03,2023-09-09,Pediatrics,ICD004-CardiacArrest,DOC011,Private-A,38553.61,34616.15,Approved,,6
+245,Divya Reddy,2023-07-21,2023-07-27,General Medicine,ICD001-HyperTension,DOC015,Private-B,27588.71,25901.22,Approved,,6
+246,Lakshmi Reddy,2023-08-13,2023-08-18,Oncology,ICD005-Tumor,DOC008,Private-A,280300.06,147533.31,Approved,,5
+247,Kiran Verma,2023-08-05,2023-08-12,Neurology,ICD007-Pneumonia,DOC018,Private-A,20722.0,2979.21,Pending,,7
+248,Meena Reddy,2023-12-26,2024-01-04,Cardiology,ICD001-HyperTension,DOC019,Private-B,162315.73,3613.69,Pending,,9
+249,Divya Gupta,2023-06-19,2023-06-26,Oncology,ICD004-CardiacArrest,DOC015,Corporate,47798.22,23162.3,Approved,,7
+250,Rahul Mehta,2023-08-26,2023-09-06,Neurology,ICD002-Diabetes,DOC010,Corporate,109237.47,98504.35,Approved,,11
+251,Ravi Verma,2023-03-01,2023-03-13,General Medicine,ICD008-Stroke,DOC012,Government,32368.13,29723.65,Approved,,12
+252,Sunita Sharma,2023-08-13,2023-08-25,General Medicine,ICD006-Appendicitis,DOC004,Government,127843.28,114424.8,Approved,,12
+253,Ananya Das,2023-05-05,2023-05-14,Oncology,ICD007-Pneumonia,DOC006,Private-A,74906.85,35496.71,Approved,,9
+254,Pooja Joshi,2023-07-22,2023-07-23,Orthopedics,ICD001-HyperTension,DOC007,Corporate,134830.8,18184.97,Pending,,1
+255,Kavitha Nair,2023-12-27,2023-12-29,Orthopedics,ICD006-Appendicitis,DOC007,Private-B,107303.84,0,Rejected,Not Covered,2
+256,Sneha Joshi,2023-05-15,2023-05-26,General Medicine,ICD007-Pneumonia,DOC019,Government,156373.49,0,Rejected,Undercoding,11
+257,Rohit Patel,2023-06-30,2023-07-08,Cardiology,ICD003-Fracture,DOC011,Private-B,221873.02,0,Rejected,Undercoding,8
+258,Sneha Reddy,2023-06-06,2023-06-08,Cardiology,ICD007-Pneumonia,DOC014,Private-A,62065.32,0,Rejected,Not Covered,2
+259,Divya Reddy,2023-11-22,2023-12-01,Orthopedics,ICD008-Stroke,DOC010,Corporate,127270.46,0,Rejected,Policy Lapsed,9
+260,Lakshmi Reddy,2023-06-11,2023-06-19,Orthopedics,ICD004-CardiacArrest,DOC013,Private-A,114538.52,32706.77,Pending,,8
+261,Sanjay Mehta,2023-12-01,2023-12-09,Pediatrics,ICD003-Fracture,DOC003,Self-Pay,78371.11,74963.64,Approved,,8
+262,Sanjay Gupta,2023-04-23,2023-04-28,Pediatrics,ICD008-Stroke,DOC018,Government,13623.55,12169.92,Approved,,5
+263,Divya Pillai,2023-10-21,2023-10-23,Pediatrics,ICD001-HyperTension,DOC015,Government,54076.89,0,Rejected,Undercoding,2
+264,Deepa Pillai,2023-08-06,2023-08-08,Pediatrics,ICD001-HyperTension,DOC015,Private-A,134590.06,0,Rejected,Policy Lapsed,2
+265,Ravi Das,2023-02-14,2023-02-22,Neurology,ICD006-Appendicitis,DOC020,Private-B,156829.96,152404.74,Approved,,8
+266,Meena Verma,2023-03-26,2023-04-05,Oncology,ICD005-Tumor,DOC020,Corporate,42860.4,28147.87,Approved,,10
+267,Naveen Chopra,2023-06-15,2023-06-27,Pediatrics,ICD002-Diabetes,DOC005,Private-A,58333.17,57916.65,Approved,,12
+268,Arjun Pillai,2023-05-22,2023-06-02,General Medicine,ICD004-CardiacArrest,DOC013,Government,29824.77,2233.97,Pending,,11
+269,Amit Joshi,2023-10-23,2023-11-03,General Medicine,ICD005-Tumor,DOC012,Private-A,54219.35,49762.45,Approved,,11
+270,Sanjay Rao,2023-06-17,2023-06-27,General Medicine,ICD006-Appendicitis,DOC003,Corporate,8425.37,0,Rejected,Incomplete Documents,10
+271,Deepa Nair,2023-04-22,2023-04-29,Pediatrics,ICD003-Fracture,DOC019,Corporate,149873.8,134651.08,Approved,,7
+272,Rahul Patel,2023-12-16,2023-12-17,General Medicine,ICD003-Fracture,DOC015,Private-B,15902.18,0,Rejected,Duplicate Claim,1
+273,Deepa Reddy,2023-08-08,2023-08-12,General Medicine,ICD005-Tumor,DOC003,Government,179259.38,47439.98,Pending,,4
+274,Deepa Iyer,2023-05-09,2023-05-11,Oncology,ICD004-CardiacArrest,DOC014,Private-B,113507.99,3573.21,Pending,,2
+275,Naveen Rao,2023-12-27,2023-12-29,Oncology,ICD008-Stroke,DOC001,Government,14045.14,0,Rejected,Policy Lapsed,2
+276,Sunita Patel,2023-03-03,2023-03-10,Cardiology,ICD006-Appendicitis,DOC012,Private-B,173550.21,112641.59,Approved,,7
+277,Naveen Gupta,2023-07-15,2023-07-18,Neurology,ICD001-HyperTension,DOC020,Private-A,118351.1,0,Rejected,Incomplete Documents,3
+278,Sneha Rao,2023-08-14,2023-08-20,Oncology,ICD008-Stroke,DOC007,Private-A,257100.35,0,Rejected,Policy Lapsed,6
+279,Vijay Kumar,2023-03-13,2023-03-15,Cardiology,ICD005-Tumor,DOC003,Government,166314.89,108803.58,Approved,,2
+280,Rahul Pillai,2023-11-04,2023-11-14,Orthopedics,ICD005-Tumor,DOC007,Self-Pay,132042.9,130879.85,Approved,,10
+281,Ananya Mehta,2023-09-18,2023-09-22,Pediatrics,ICD007-Pneumonia,DOC004,Self-Pay,136629.11,117253.1,Approved,,4
+282,Meena Chopra,2023-11-23,2023-12-03,Orthopedics,ICD006-Appendicitis,DOC005,Corporate,20214.06,73.18,Pending,,10
+283,Amit Sharma,2023-08-04,2023-08-10,General Medicine,ICD002-Diabetes,DOC001,Self-Pay,101973.27,93881.91,Approved,,6
+284,Naveen Das,2023-01-21,2023-01-22,Neurology,ICD007-Pneumonia,DOC014,Private-A,171172.96,152852.86,Approved,,1
+285,Amit Verma,2023-02-12,2023-02-23,Oncology,ICD004-CardiacArrest,DOC005,Corporate,136244.61,0,Rejected,Undercoding,11
+286,Deepa Iyer,2023-07-20,2023-07-30,Pediatrics,ICD007-Pneumonia,DOC008,Private-B,117098.61,0,Rejected,Incomplete Documents,10
+287,Kavitha Patel,2023-02-14,2023-02-21,Cardiology,ICD001-HyperTension,DOC005,Private-A,42385.79,0,Rejected,Incomplete Documents,7
+288,Vijay Iyer,2023-03-25,2023-04-02,Oncology,ICD005-Tumor,DOC004,Government,243587.28,0,Rejected,Undercoding,8
+289,Lakshmi Mehta,2023-08-08,2023-08-13,Cardiology,ICD006-Appendicitis,DOC002,Private-B,170627.76,97735.78,Approved,,5
+290,Sunita Kumar,2023-03-27,2023-04-02,General Medicine,ICD001-HyperTension,DOC002,Self-Pay,35057.32,9405.2,Pending,,6
+291,Priya Verma,2023-01-24,2023-02-01,Cardiology,ICD007-Pneumonia,DOC008,Private-A,139247.92,3790.61,Pending,,8
+292,Meena Patel,2023-08-02,2023-08-14,Neurology,ICD001-HyperTension,DOC006,Private-A,63028.84,0,Rejected,Not Covered,12
+293,Deepa Nair,2023-01-24,2023-01-31,Orthopedics,ICD002-Diabetes,DOC018,Self-Pay,19855.35,17717.84,Approved,,7
+294,Ananya Mehta,2023-07-08,2023-07-12,General Medicine,ICD006-Appendicitis,DOC019,Government,58154.36,0,Rejected,Not Covered,4
+295,Divya Nair,2023-10-07,2023-10-11,General Medicine,ICD001-HyperTension,DOC011,Private-A,33897.42,243.15,Pending,,4
+296,Vijay Iyer,2023-06-07,2023-06-09,Cardiology,ICD005-Tumor,DOC003,Corporate,85410.56,5452.58,Pending,,2
+297,Sunita Verma,2023-09-24,2023-10-01,Cardiology,ICD003-Fracture,DOC013,Private-A,174749.06,128055.04,Approved,,7
+298,Arjun Chopra,2023-10-18,2023-10-19,Cardiology,ICD007-Pneumonia,DOC011,Self-Pay,122792.33,5882.62,Pending,,1
+299,Rohit Patel,2023-05-20,2023-05-24,Neurology,ICD003-Fracture,DOC004,Corporate,20846.24,20158.12,Approved,,4
+300,Ravi Mehta,2023-08-27,2023-09-02,Orthopedics,ICD005-Tumor,DOC015,Corporate,77920.16,77506.81,Approved,,6
+301,Sneha Sharma,2023-02-16,2023-02-19,Neurology,ICD004-CardiacArrest,DOC011,Government,146906.67,140399.54,Approved,,3
+302,Deepa Singh,2023-12-31,2024-01-04,Orthopedics,ICD003-Fracture,DOC001,Government,174564.8,149661.84,Approved,,4
+303,Vijay Patel,2023-10-12,2023-10-24,General Medicine,ICD001-HyperTension,DOC002,Corporate,102620.79,88796.34,Approved,,12
+304,Rohit Gupta,2023-04-12,2023-04-19,Orthopedics,ICD005-Tumor,DOC003,Private-A,72025.24,0,Rejected,Incomplete Documents,7
+305,Arjun Patel,2023-04-12,2023-04-23,Cardiology,ICD001-HyperTension,DOC015,Government,158474.25,83070.33,Approved,,11
+306,Kavitha Nair,2023-10-21,2023-10-28,Cardiology,ICD004-CardiacArrest,DOC006,Private-A,265545.73,127590.79,Approved,,7
+307,Deepa Mehta,2023-08-17,2023-08-20,Neurology,ICD007-Pneumonia,DOC018,Private-B,13959.7,0,Rejected,Policy Lapsed,3
+308,Naveen Kumar,2023-02-14,2023-02-19,General Medicine,ICD001-HyperTension,DOC013,Government,73878.63,69918.58,Approved,,5
+309,Suresh Reddy,2023-09-03,2023-09-12,Oncology,ICD001-HyperTension,DOC011,Private-B,217187.96,133128.7,Approved,,9
+310,Rohit Kumar,2023-01-16,2023-01-21,Pediatrics,ICD003-Fracture,DOC004,Private-A,18077.69,2871.27,Pending,,5
+311,Ananya Gupta,2023-05-17,2023-05-26,Orthopedics,ICD007-Pneumonia,DOC012,Private-A,148401.05,2489.07,Pending,,9
+312,Rohit Sharma,2023-05-02,2023-05-12,Orthopedics,ICD006-Appendicitis,DOC019,Private-A,62696.75,0,Rejected,Undercoding,10
+313,Divya Singh,2023-10-16,2023-10-20,Pediatrics,ICD003-Fracture,DOC016,Private-A,151911.86,0,Rejected,Duplicate Claim,4
+314,Sneha Kumar,2023-01-29,2023-02-02,Cardiology,ICD003-Fracture,DOC011,Government,170820.39,102756.46,Approved,,4
+315,Naveen Pillai,2023-06-15,2023-06-16,Oncology,ICD006-Appendicitis,DOC003,Private-A,21679.2,11622.89,Approved,,1
+316,Pooja Das,2023-10-28,2023-10-30,Neurology,ICD008-Stroke,DOC011,Corporate,65888.5,65649.92,Approved,,2
+317,Kavitha Joshi,2023-12-22,2024-01-01,Orthopedics,ICD005-Tumor,DOC010,Self-Pay,143362.59,134523.21,Approved,,10
+318,Rohit Sharma,2023-01-01,2023-01-13,Orthopedics,ICD003-Fracture,DOC020,Private-A,171176.08,171029.29,Approved,,12
+319,Amit Kumar,2023-04-24,2023-05-05,Neurology,ICD006-Appendicitis,DOC011,Self-Pay,105274.64,4441.85,Pending,,11
+320,Suresh Kumar,2023-12-29,2024-01-09,Orthopedics,ICD004-CardiacArrest,DOC003,Government,117925.66,15800.74,Pending,,11
+321,Kavitha Chopra,2023-02-25,2023-03-09,Neurology,ICD007-Pneumonia,DOC016,Private-B,8220.36,7890.62,Approved,,12
+322,Ananya Reddy,2023-10-07,2023-10-14,General Medicine,ICD008-Stroke,DOC003,Private-B,25445.71,24926.81,Approved,,7
+323,Kavitha Iyer,2023-01-11,2023-01-17,Cardiology,ICD002-Diabetes,DOC018,Private-B,101676.94,47689.84,Approved,,6
+324,Kavitha Gupta,2023-11-01,2023-11-11,Cardiology,ICD007-Pneumonia,DOC006,Private-B,316757.46,0,Rejected,Duplicate Claim,10
+325,Divya Singh,2023-06-19,2023-06-23,Cardiology,ICD005-Tumor,DOC010,Government,342044.75,163852.08,Approved,,4
+326,Meena Sharma,2023-01-26,2023-02-02,Orthopedics,ICD007-Pneumonia,DOC003,Government,106344.41,4900.03,Pending,,7
+327,Amit Mehta,2023-09-03,2023-09-07,Neurology,ICD002-Diabetes,DOC010,Self-Pay,24681.75,23342.24,Approved,,4
+328,Kavitha Nair,2023-09-08,2023-09-19,General Medicine,ICD007-Pneumonia,DOC012,Corporate,53580.76,0,Rejected,Duplicate Claim,11
+329,Rohit Sharma,2023-01-23,2023-01-28,Orthopedics,ICD003-Fracture,DOC004,Corporate,83635.35,81591.45,Approved,,5
+330,Naveen Joshi,2023-10-05,2023-10-12,Cardiology,ICD008-Stroke,DOC019,Private-B,330424.66,163245.99,Approved,,7
+331,Rohit Chopra,2023-06-03,2023-06-05,Orthopedics,ICD003-Fracture,DOC004,Corporate,75906.35,790.83,Pending,,2
+332,Pooja Kumar,2023-03-27,2023-03-31,General Medicine,ICD003-Fracture,DOC020,Private-A,147055.24,134335.88,Approved,,4
+333,Suresh Verma,2023-02-04,2023-02-06,Neurology,ICD008-Stroke,DOC001,Private-B,74753.05,67196.94,Approved,,2
+334,Rohit Das,2023-10-28,2023-11-06,Oncology,ICD002-Diabetes,DOC004,Self-Pay,241682.79,124279.92,Approved,,9
+335,Lakshmi Gupta,2023-05-27,2023-06-05,Pediatrics,ICD008-Stroke,DOC002,Government,159383.35,12629.69,Pending,,9
+336,Priya Joshi,2023-07-26,2023-07-29,Orthopedics,ICD006-Appendicitis,DOC008,Private-B,114338.05,0,Rejected,Duplicate Claim,3
+337,Lakshmi Pillai,2023-05-18,2023-05-24,Cardiology,ICD002-Diabetes,DOC008,Corporate,17422.88,0,Rejected,Undercoding,6
+338,Ravi Mehta,2023-08-15,2023-08-21,Orthopedics,ICD004-CardiacArrest,DOC014,Private-B,54340.24,51451.14,Approved,,6
+339,Naveen Joshi,2023-09-22,2023-09-28,Oncology,ICD003-Fracture,DOC017,Corporate,226476.45,130390.9,Approved,,6
+340,Priya Mehta,2023-03-30,2023-04-03,Pediatrics,ICD001-HyperTension,DOC012,Government,158531.06,136121.76,Approved,,4
+341,Rahul Kumar,2023-05-21,2023-05-27,Oncology,ICD006-Appendicitis,DOC016,Private-A,207511.71,141459.32,Approved,,6
+342,Suresh Iyer,2023-04-01,2023-04-09,Pediatrics,ICD002-Diabetes,DOC010,Corporate,108943.4,95273.95,Approved,,8
+343,Ananya Rao,2023-01-26,2023-01-29,Cardiology,ICD004-CardiacArrest,DOC009,Corporate,294225.38,0,Rejected,Policy Lapsed,3
+344,Vijay Rao,2023-09-20,2023-09-21,Oncology,ICD003-Fracture,DOC020,Corporate,255740.4,32073.56,Pending,,1
+345,Pooja Chopra,2023-05-10,2023-05-20,Cardiology,ICD007-Pneumonia,DOC012,Private-A,256318.78,145750.21,Approved,,10
+346,Rohit Patel,2023-04-22,2023-04-30,General Medicine,ICD001-HyperTension,DOC017,Private-B,59968.96,56583.17,Approved,,8
+347,Arjun Singh,2023-10-15,2023-10-26,Oncology,ICD006-Appendicitis,DOC009,Private-B,180304.86,104915.6,Approved,,11
+348,Sneha Joshi,2023-04-07,2023-04-10,Neurology,ICD006-Appendicitis,DOC005,Private-B,96974.5,83254.18,Approved,,3
+349,Priya Gupta,2023-12-02,2023-12-10,Oncology,ICD004-CardiacArrest,DOC011,Government,282238.42,163903.93,Approved,,8
+350,Deepa Pillai,2023-12-18,2023-12-27,Oncology,ICD003-Fracture,DOC018,Private-A,182686.07,116741.63,Approved,,9
+351,Kavitha Rao,2023-02-19,2023-02-27,Orthopedics,ICD006-Appendicitis,DOC003,Private-B,30006.39,29143.75,Approved,,8
+352,Meena Singh,2023-04-25,2023-05-07,Orthopedics,ICD005-Tumor,DOC015,Private-B,157886.34,155206.46,Approved,,12
+353,Naveen Patel,2023-01-28,2023-02-08,Cardiology,ICD007-Pneumonia,DOC017,Corporate,208361.26,2315.4,Pending,,11
+354,Rohit Chopra,2023-01-28,2023-01-31,Neurology,ICD008-Stroke,DOC005,Corporate,31626.82,28824.01,Approved,,3
+355,Priya Sharma,2023-02-11,2023-02-19,Neurology,ICD008-Stroke,DOC009,Private-A,65212.26,6131.53,Pending,,8
+356,Vijay Gupta,2023-10-23,2023-10-26,Orthopedics,ICD007-Pneumonia,DOC014,Private-A,92207.26,0,Rejected,Incomplete Documents,3
+357,Rahul Chopra,2023-09-02,2023-09-09,General Medicine,ICD006-Appendicitis,DOC017,Corporate,8803.09,8447.44,Approved,,7
+358,Meena Singh,2023-12-13,2023-12-14,Orthopedics,ICD003-Fracture,DOC004,Government,115790.15,110467.13,Approved,,1
+359,Deepa Mehta,2023-10-29,2023-11-03,General Medicine,ICD006-Appendicitis,DOC014,Self-Pay,36727.47,3285.66,Pending,,5
+360,Kiran Sharma,2023-06-25,2023-07-03,Oncology,ICD004-CardiacArrest,DOC008,Private-A,135586.32,69247.66,Approved,,8
+361,Priya Joshi,2023-04-19,2023-05-01,Oncology,ICD005-Tumor,DOC018,Private-A,21158.18,10221.14,Approved,,12
+362,Priya Iyer,2023-11-01,2023-11-02,Pediatrics,ICD002-Diabetes,DOC014,Government,121858.83,0,Rejected,Incomplete Documents,1
+363,Rahul Singh,2023-03-05,2023-03-14,General Medicine,ICD007-Pneumonia,DOC004,Corporate,51470.99,0,Rejected,Policy Lapsed,9
+364,Sneha Patel,2023-05-19,2023-05-29,Oncology,ICD005-Tumor,DOC004,Self-Pay,154057.54,109319.78,Approved,,10
+365,Pooja Singh,2023-04-12,2023-04-22,Cardiology,ICD003-Fracture,DOC002,Corporate,61043.53,39327.18,Approved,,10
+366,Amit Chopra,2023-04-17,2023-04-29,Pediatrics,ICD002-Diabetes,DOC019,Corporate,168497.39,143291.98,Approved,,12
+367,Ananya Mehta,2023-03-18,2023-03-20,Oncology,ICD005-Tumor,DOC009,Corporate,274686.86,136187.43,Approved,,2
+368,Arjun Joshi,2023-02-21,2023-02-24,General Medicine,ICD002-Diabetes,DOC004,Government,158352.16,17112.23,Pending,,3
+369,Suresh Chopra,2023-03-12,2023-03-23,Cardiology,ICD002-Diabetes,DOC012,Government,234885.24,117430.44,Approved,,11
+370,Lakshmi Das,2023-02-28,2023-03-07,Neurology,ICD007-Pneumonia,DOC006,Private-A,76843.04,74949.34,Approved,,7
+371,Rohit Mehta,2023-12-23,2024-01-04,Cardiology,ICD008-Stroke,DOC006,Private-A,28780.67,864.9,Pending,,12
+372,Lakshmi Chopra,2023-07-03,2023-07-13,Pediatrics,ICD008-Stroke,DOC004,Corporate,12956.39,0,Rejected,Policy Lapsed,10
+373,Naveen Das,2023-01-24,2023-01-26,General Medicine,ICD004-CardiacArrest,DOC011,Corporate,52997.41,50648.84,Approved,,2
+374,Lakshmi Nair,2023-12-19,2023-12-31,Pediatrics,ICD007-Pneumonia,DOC005,Self-Pay,114337.11,109649.04,Approved,,12
+375,Lakshmi Pillai,2023-01-28,2023-01-29,Pediatrics,ICD003-Fracture,DOC003,Self-Pay,118664.58,115974.08,Approved,,1
+376,Kiran Joshi,2023-05-04,2023-05-10,General Medicine,ICD004-CardiacArrest,DOC003,Private-B,174864.95,154476.74,Approved,,6
+377,Lakshmi Iyer,2023-10-21,2023-10-29,General Medicine,ICD001-HyperTension,DOC004,Corporate,23139.42,20765.53,Approved,,8
+378,Sneha Rao,2023-01-19,2023-01-28,General Medicine,ICD005-Tumor,DOC017,Corporate,102444.99,0,Rejected,Not Covered,9
+379,Ananya Pillai,2023-12-02,2023-12-13,Pediatrics,ICD008-Stroke,DOC011,Private-A,86467.76,84202.01,Approved,,11
+380,Sunita Das,2023-11-04,2023-11-12,Pediatrics,ICD004-CardiacArrest,DOC001,Self-Pay,131265.19,120485.68,Approved,,8
+381,Kavitha Mehta,2023-11-21,2023-11-26,Neurology,ICD003-Fracture,DOC014,Private-B,102202.78,88502.33,Approved,,5
+382,Ravi Iyer,2023-11-09,2023-11-13,Cardiology,ICD006-Appendicitis,DOC004,Private-B,65214.36,4745.1,Pending,,4
+383,Sanjay Rao,2023-11-21,2023-12-02,General Medicine,ICD003-Fracture,DOC016,Government,109275.51,0,Rejected,Duplicate Claim,11
+384,Kavitha Iyer,2023-01-25,2023-02-03,Cardiology,ICD003-Fracture,DOC005,Self-Pay,279625.52,24466.25,Pending,,9
+385,Sneha Chopra,2023-12-03,2023-12-13,Cardiology,ICD004-CardiacArrest,DOC009,Corporate,178836.96,110262.39,Approved,,10
+386,Naveen Singh,2023-05-31,2023-06-08,General Medicine,ICD006-Appendicitis,DOC018,Private-B,146425.05,137694.99,Approved,,8
+387,Kavitha Verma,2023-04-13,2023-04-17,Oncology,ICD006-Appendicitis,DOC004,Private-A,204257.91,104028.1,Approved,,4
+388,Divya Singh,2023-09-03,2023-09-13,Neurology,ICD007-Pneumonia,DOC001,Self-Pay,106149.77,96874.58,Approved,,10
+389,Suresh Das,2023-01-13,2023-01-20,Pediatrics,ICD003-Fracture,DOC010,Government,32996.19,0,Rejected,Policy Lapsed,7
+390,Sanjay Patel,2023-03-16,2023-03-17,Oncology,ICD004-CardiacArrest,DOC018,Private-B,167684.12,122096.32,Approved,,1
+391,Kiran Joshi,2023-09-19,2023-10-01,General Medicine,ICD006-Appendicitis,DOC018,Private-A,57473.85,0,Rejected,Duplicate Claim,12
+392,Meena Das,2023-05-09,2023-05-13,Cardiology,ICD004-CardiacArrest,DOC007,Government,215818.24,0,Rejected,Duplicate Claim,4
+393,Sunita Joshi,2023-04-01,2023-04-12,Neurology,ICD001-HyperTension,DOC014,Corporate,20808.67,4588.81,Pending,,11
+394,Sanjay Iyer,2023-05-16,2023-05-19,Neurology,ICD003-Fracture,DOC002,Self-Pay,35679.76,60.43,Pending,,3
+395,Lakshmi Das,2023-11-02,2023-11-03,Orthopedics,ICD006-Appendicitis,DOC003,Private-B,141069.68,0,Rejected,Undercoding,1
+396,Divya Verma,2023-09-27,2023-10-01,Oncology,ICD007-Pneumonia,DOC003,Private-B,243637.81,167068.06,Approved,,4
+397,Sneha Verma,2023-04-20,2023-05-01,Neurology,ICD008-Stroke,DOC018,Private-A,65083.96,57453.96,Approved,,11
+398,Ananya Sharma,2023-02-28,2023-03-11,Oncology,ICD006-Appendicitis,DOC013,Government,131179.94,63890.47,Approved,,11
+399,Naveen Das,2023-05-12,2023-05-21,Cardiology,ICD008-Stroke,DOC016,Corporate,243757.12,122919.82,Approved,,9
+400,Divya Verma,2023-11-30,2023-12-04,Cardiology,ICD001-HyperTension,DOC003,Private-B,124934.55,54537.86,Approved,,4
+401,Pooja Rao,2023-12-17,2023-12-24,Orthopedics,ICD002-Diabetes,DOC005,Private-A,151734.39,147836.68,Approved,,7
+402,Rohit Pillai,2023-06-19,2023-06-20,Cardiology,ICD004-CardiacArrest,DOC009,Corporate,38975.76,22341.98,Approved,,1
+403,Sunita Verma,2023-08-19,2023-08-30,General Medicine,ICD001-HyperTension,DOC020,Corporate,77565.06,70462.06,Approved,,11
+404,Deepa Gupta,2023-01-24,2023-02-05,Cardiology,ICD002-Diabetes,DOC010,Self-Pay,231292.91,142422.26,Approved,,12
+405,Kiran Das,2023-07-22,2023-08-02,General Medicine,ICD005-Tumor,DOC005,Corporate,13300.89,11744.42,Approved,,11
+406,Rohit Gupta,2023-01-06,2023-01-15,Neurology,ICD007-Pneumonia,DOC018,Private-B,158459.91,135683.83,Approved,,9
+407,Pooja Chopra,2023-06-06,2023-06-10,Pediatrics,ICD003-Fracture,DOC006,Government,136707.01,14102.08,Pending,,4
+408,Priya Pillai,2023-11-12,2023-11-17,Orthopedics,ICD008-Stroke,DOC018,Private-A,41424.11,40179.27,Approved,,5
+409,Meena Reddy,2023-12-10,2023-12-12,Cardiology,ICD004-CardiacArrest,DOC004,Private-B,100502.5,47902.39,Approved,,2
+410,Deepa Iyer,2023-02-05,2023-02-09,Neurology,ICD003-Fracture,DOC019,Self-Pay,62659.18,59053.23,Approved,,4
+411,Pooja Singh,2023-06-11,2023-06-18,Pediatrics,ICD006-Appendicitis,DOC005,Private-B,37006.0,35816.22,Approved,,7
+412,Kavitha Rao,2023-09-03,2023-09-11,Oncology,ICD002-Diabetes,DOC009,Private-B,142652.65,0,Rejected,Duplicate Claim,8
+413,Rahul Pillai,2023-04-11,2023-04-16,Orthopedics,ICD001-HyperTension,DOC019,Self-Pay,134169.67,128683.98,Approved,,5
+414,Divya Mehta,2023-10-30,2023-11-03,Pediatrics,ICD003-Fracture,DOC012,Corporate,163884.22,152661.49,Approved,,4
+415,Amit Joshi,2023-10-29,2023-11-10,General Medicine,ICD006-Appendicitis,DOC017,Private-A,155432.23,143801.0,Approved,,12
+416,Rohit Rao,2023-11-11,2023-11-22,Cardiology,ICD003-Fracture,DOC016,Private-A,52062.92,33491.06,Approved,,11
+417,Ravi Verma,2023-04-23,2023-05-01,Neurology,ICD006-Appendicitis,DOC013,Government,47860.98,42361.89,Approved,,8
+418,Naveen Rao,2023-01-24,2023-01-25,General Medicine,ICD005-Tumor,DOC009,Corporate,176661.44,168810.68,Approved,,1
+419,Amit Verma,2023-10-19,2023-10-22,Pediatrics,ICD005-Tumor,DOC013,Self-Pay,72785.45,68283.8,Approved,,3
+420,Sneha Sharma,2023-07-27,2023-08-02,Orthopedics,ICD003-Fracture,DOC015,Self-Pay,148564.72,143944.15,Approved,,6
+421,Meena Gupta,2023-02-09,2023-02-18,Orthopedics,ICD002-Diabetes,DOC008,Private-A,118678.04,104203.57,Approved,,9
+422,Pooja Sharma,2023-02-28,2023-03-08,General Medicine,ICD004-CardiacArrest,DOC002,Private-B,124139.46,116519.61,Approved,,8
+423,Vijay Sharma,2023-10-31,2023-11-03,Orthopedics,ICD003-Fracture,DOC009,Self-Pay,31172.54,30661.92,Approved,,3
+424,Deepa Patel,2023-07-27,2023-08-06,Orthopedics,ICD004-CardiacArrest,DOC015,Self-Pay,174709.91,171526.06,Approved,,10
+425,Rohit Pillai,2023-09-04,2023-09-07,Pediatrics,ICD003-Fracture,DOC020,Corporate,45730.58,39849.94,Approved,,3
+426,Ananya Joshi,2023-05-16,2023-05-19,Oncology,ICD007-Pneumonia,DOC005,Self-Pay,227130.81,121692.92,Approved,,3
+427,Sneha Patel,2023-04-14,2023-04-23,Cardiology,ICD003-Fracture,DOC016,Government,292773.13,0,Rejected,Duplicate Claim,9
+428,Vijay Chopra,2023-01-20,2023-01-29,Pediatrics,ICD001-HyperTension,DOC014,Self-Pay,94572.62,87227.75,Approved,,9
+429,Lakshmi Das,2023-07-09,2023-07-10,Pediatrics,ICD007-Pneumonia,DOC012,Corporate,127994.56,126812.31,Approved,,1
+430,Amit Singh,2023-02-20,2023-02-27,Pediatrics,ICD007-Pneumonia,DOC009,Self-Pay,31027.89,27455.86,Approved,,7
+431,Naveen Sharma,2023-12-30,2024-01-11,Orthopedics,ICD007-Pneumonia,DOC007,Government,143780.67,0,Rejected,Incomplete Documents,12
+432,Divya Joshi,2023-07-29,2023-08-04,Oncology,ICD006-Appendicitis,DOC020,Private-B,39048.5,24694.59,Approved,,6
+433,Divya Verma,2023-04-15,2023-04-22,Neurology,ICD008-Stroke,DOC009,Corporate,102962.05,90277.94,Approved,,7
+434,Sunita Iyer,2023-06-26,2023-07-08,Neurology,ICD004-CardiacArrest,DOC015,Self-Pay,76478.32,74916.22,Approved,,12
+435,Priya Reddy,2023-02-21,2023-02-25,Oncology,ICD007-Pneumonia,DOC001,Private-A,165085.31,0,Rejected,Not Covered,4
+436,Priya Iyer,2023-08-30,2023-09-09,Cardiology,ICD007-Pneumonia,DOC013,Private-A,112394.26,73209.39,Approved,,10
+437,Kavitha Rao,2023-05-27,2023-06-08,Pediatrics,ICD008-Stroke,DOC015,Self-Pay,173727.13,167827.58,Approved,,12
+438,Ananya Gupta,2023-12-03,2023-12-12,Cardiology,ICD003-Fracture,DOC002,Private-A,95001.75,53757.37,Approved,,9
+439,Kiran Nair,2023-12-02,2023-12-03,Neurology,ICD007-Pneumonia,DOC013,Private-A,175811.09,156716.34,Approved,,1
+440,Deepa Iyer,2023-09-23,2023-09-24,Pediatrics,ICD006-Appendicitis,DOC012,Private-A,134751.19,116361.0,Approved,,1
+441,Kavitha Joshi,2023-11-07,2023-11-11,Neurology,ICD002-Diabetes,DOC018,Private-A,86218.55,73345.92,Approved,,4
+442,Rohit Singh,2023-05-31,2023-06-06,Cardiology,ICD008-Stroke,DOC013,Self-Pay,326953.88,49046.66,Pending,,6
+443,Rohit Pillai,2023-05-05,2023-05-11,Pediatrics,ICD001-HyperTension,DOC016,Corporate,173333.06,159311.81,Approved,,6
+444,Arjun Joshi,2023-02-04,2023-02-11,Cardiology,ICD006-Appendicitis,DOC017,Private-B,170916.42,23757.58,Pending,,7
+445,Arjun Patel,2023-12-25,2023-12-30,Pediatrics,ICD003-Fracture,DOC016,Government,50700.31,48218.77,Approved,,5
+446,Ravi Mehta,2023-04-22,2023-05-02,Neurology,ICD004-CardiacArrest,DOC008,Private-B,54281.03,11123.93,Pending,,10
+447,Sunita Patel,2023-05-16,2023-05-20,Oncology,ICD002-Diabetes,DOC016,Private-A,73469.7,0,Rejected,Not Covered,4
+448,Rohit Pillai,2023-10-05,2023-10-06,Pediatrics,ICD005-Tumor,DOC016,Government,153857.82,138058.55,Approved,,1
+449,Pooja Mehta,2023-05-24,2023-05-31,Orthopedics,ICD001-HyperTension,DOC017,Self-Pay,46199.96,39645.21,Approved,,7
+450,Arjun Iyer,2023-12-18,2023-12-21,Neurology,ICD001-HyperTension,DOC001,Corporate,86637.72,80376.48,Approved,,3
+451,Suresh Kumar,2023-07-14,2023-07-24,Oncology,ICD005-Tumor,DOC016,Private-A,36245.44,24803.73,Approved,,10
+452,Meena Nair,2023-07-07,2023-07-10,Pediatrics,ICD007-Pneumonia,DOC009,Private-B,93788.44,89577.99,Approved,,3
+453,Suresh Das,2023-10-20,2023-10-23,General Medicine,ICD004-CardiacArrest,DOC018,Private-A,176434.86,0,Rejected,Incomplete Documents,3
+454,Rahul Reddy,2023-04-11,2023-04-14,General Medicine,ICD007-Pneumonia,DOC016,Corporate,145606.44,0,Rejected,Duplicate Claim,3
+455,Rohit Sharma,2023-10-01,2023-10-13,Orthopedics,ICD007-Pneumonia,DOC004,Self-Pay,62305.09,55304.87,Approved,,12
+456,Arjun Singh,2023-01-31,2023-02-04,Oncology,ICD006-Appendicitis,DOC012,Private-A,238967.35,139760.94,Approved,,4
+457,Sneha Kumar,2023-05-12,2023-05-18,Pediatrics,ICD003-Fracture,DOC010,Self-Pay,11411.68,11184.65,Approved,,6
+458,Kiran Gupta,2023-12-11,2023-12-20,Neurology,ICD005-Tumor,DOC015,Private-B,91848.92,0,Rejected,Incomplete Documents,9
+459,Amit Patel,2023-03-27,2023-04-07,Oncology,ICD003-Fracture,DOC011,Private-A,249797.99,138800.95,Approved,,11
+460,Suresh Chopra,2023-06-12,2023-06-23,Orthopedics,ICD008-Stroke,DOC012,Private-B,58113.29,55015.66,Approved,,11
+461,Suresh Iyer,2023-09-24,2023-10-02,Oncology,ICD002-Diabetes,DOC007,Self-Pay,143318.78,67599.66,Approved,,8
+462,Rahul Das,2023-02-22,2023-02-24,Orthopedics,ICD007-Pneumonia,DOC017,Corporate,18972.29,3121.51,Pending,,2
+463,Ananya Iyer,2023-05-15,2023-05-25,Cardiology,ICD005-Tumor,DOC015,Government,52635.52,0,Rejected,Duplicate Claim,10
+464,Arjun Pillai,2023-03-09,2023-03-18,Oncology,ICD008-Stroke,DOC015,Private-A,289571.36,144542.62,Approved,,9
+465,Rohit Gupta,2023-10-08,2023-10-16,Pediatrics,ICD008-Stroke,DOC019,Private-B,31239.76,5054.16,Pending,,8
+466,Ananya Das,2023-11-24,2023-12-05,General Medicine,ICD002-Diabetes,DOC015,Self-Pay,99810.87,14422.22,Pending,,11
+467,Vijay Nair,2023-07-31,2023-08-05,Neurology,ICD005-Tumor,DOC016,Private-B,34783.42,32296.32,Approved,,5
+468,Pooja Das,2023-12-19,2023-12-27,Pediatrics,ICD005-Tumor,DOC020,Government,170876.69,0,Rejected,Incomplete Documents,8
+469,Ananya Reddy,2023-10-08,2023-10-14,Orthopedics,ICD007-Pneumonia,DOC013,Government,40434.21,5302.22,Pending,,6
+470,Sneha Das,2023-02-10,2023-02-17,Orthopedics,ICD005-Tumor,DOC010,Private-B,115555.56,112088.18,Approved,,7
+471,Sanjay Gupta,2023-05-18,2023-05-25,Oncology,ICD008-Stroke,DOC009,Self-Pay,55552.89,35112.33,Approved,,7
+472,Sunita Singh,2023-09-09,2023-09-13,Oncology,ICD005-Tumor,DOC005,Self-Pay,83074.24,62863.85,Approved,,4
+473,Lakshmi Nair,2023-01-05,2023-01-09,Oncology,ICD008-Stroke,DOC002,Corporate,37485.12,20752.84,Approved,,4
+474,Kavitha Kumar,2023-03-16,2023-03-17,Neurology,ICD005-Tumor,DOC013,Government,53838.62,50149.53,Approved,,1
+475,Ravi Mehta,2024-01-01,2024-01-05,Cardiology,ICD002-Diabetes,DOC017,Government,148086.71,5500.74,Pending,,4
+476,Priya Iyer,2023-08-31,2023-09-07,Oncology,ICD002-Diabetes,DOC009,Private-A,217914.02,112494.39,Approved,,7
+477,Sunita Kumar,2023-04-12,2023-04-18,General Medicine,ICD007-Pneumonia,DOC011,Private-B,160653.37,10496.52,Pending,,6
+478,Rohit Das,2023-05-22,2023-06-01,Cardiology,ICD008-Stroke,DOC020,Private-A,56535.98,0,Rejected,Incomplete Documents,10
+479,Priya Sharma,2023-02-15,2023-02-19,Orthopedics,ICD006-Appendicitis,DOC005,Private-B,35124.13,33114.91,Approved,,4
+480,Meena Das,2023-02-24,2023-02-27,Oncology,ICD008-Stroke,DOC007,Self-Pay,160955.8,85820.25,Approved,,3
+481,Deepa Verma,2023-07-03,2023-07-15,Cardiology,ICD008-Stroke,DOC007,Corporate,50073.13,4538.63,Pending,,12
+482,Sneha Chopra,2023-10-06,2023-10-12,Pediatrics,ICD003-Fracture,DOC003,Private-A,63673.11,62409.15,Approved,,6
+483,Naveen Joshi,2023-08-19,2023-08-24,Pediatrics,ICD003-Fracture,DOC001,Private-A,148939.99,136743.57,Approved,,5
+484,Kiran Kumar,2023-11-14,2023-11-18,Pediatrics,ICD008-Stroke,DOC018,Private-B,63159.38,62848.29,Approved,,4
+485,Amit Sharma,2023-05-25,2023-05-31,Orthopedics,ICD003-Fracture,DOC006,Self-Pay,78486.38,67846.64,Approved,,6
+486,Lakshmi Verma,2023-02-24,2023-03-04,Cardiology,ICD005-Tumor,DOC002,Private-A,64386.86,38757.09,Approved,,8
+487,Lakshmi Chopra,2023-11-07,2023-11-19,Neurology,ICD002-Diabetes,DOC015,Private-A,20190.32,1264.35,Pending,,12
+488,Priya Pillai,2023-07-04,2023-07-13,Oncology,ICD005-Tumor,DOC017,Government,252186.35,33508.63,Pending,,9
+489,Divya Joshi,2023-06-05,2023-06-07,Cardiology,ICD004-CardiacArrest,DOC007,Government,308148.3,4966.83,Pending,,2
+490,Sunita Das,2023-10-19,2023-10-30,Pediatrics,ICD006-Appendicitis,DOC015,Private-A,170970.58,159638.86,Approved,,11
+491,Divya Gupta,2023-02-23,2023-02-26,Oncology,ICD008-Stroke,DOC012,Corporate,254013.26,133582.21,Approved,,3
+492,Arjun Gupta,2023-06-16,2023-06-22,Neurology,ICD004-CardiacArrest,DOC019,Self-Pay,78923.05,76864.99,Approved,,6
+493,Sanjay Joshi,2023-07-12,2023-07-21,Pediatrics,ICD001-HyperTension,DOC002,Private-A,167297.27,166334.94,Approved,,9
+494,Ananya Kumar,2023-01-09,2023-01-18,Neurology,ICD006-Appendicitis,DOC001,Self-Pay,31234.74,61.55,Pending,,9
+495,Meena Reddy,2023-10-11,2023-10-20,Oncology,ICD003-Fracture,DOC009,Private-B,137532.79,4812.6,Pending,,9
+496,Rohit Chopra,2023-05-08,2023-05-12,Neurology,ICD004-CardiacArrest,DOC003,Self-Pay,52073.94,48718.98,Approved,,4
+497,Sunita Gupta,2023-09-05,2023-09-08,Oncology,ICD005-Tumor,DOC002,Private-B,172345.94,19395.13,Pending,,3
+498,Pooja Joshi,2023-07-15,2023-07-17,Oncology,ICD002-Diabetes,DOC008,Self-Pay,272398.09,14263.15,Pending,,2
+499,Divya Gupta,2023-01-06,2023-01-17,Oncology,ICD003-Fracture,DOC011,Self-Pay,188316.13,126937.5,Approved,,11
+500,Sneha Gupta,2023-03-20,2023-03-21,Pediatrics,ICD002-Diabetes,DOC008,Private-A,123865.26,36083.45,Pending,,1
