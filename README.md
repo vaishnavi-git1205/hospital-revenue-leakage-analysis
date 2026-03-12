@@ -1,3 +1,5 @@
-![Executive Summary](03_PowerBI/dashboard_screenshots/executive_summary.png)Vaishnavi Palamakula
+## 📊 Dashboard Preview
+
+![Executive Summary Dashboard](03_PowerBI/dashboard_screenshots/dashboard_page1.png)
 Aspiring Business Analyst
 Email: vaishnavipalamakual@gmail.com
