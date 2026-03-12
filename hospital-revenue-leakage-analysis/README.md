@@ -154,7 +154,7 @@ hospital-revenue-leakage-analysis/
 
 **[vaishnavipalamakula]**  
 Aspiring Business Analyst | Fresher  
-📧 [vaishnavipalamakuala@gmail.com]  
+📧 [vaishnavipalamakula@gmail.com]  
 
 *This is a portfolio project built to demonstrate end-to-end Business Analyst skills. Data is simulated for learning purposes.*
 
